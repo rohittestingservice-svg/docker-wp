@@ -1,0 +1,24 @@
+[
+    {
+        "heading": "Keuze categorie",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Houten overkappingen ",
+                "img_src": "",
+                "sub_data_file": "houten_overkappingen.json"
+            },
+            {
+                "label": "Glazen schuifwand",
+                "img_src": "http://localhost:8080/wp/wp-content/uploads/2025/06/473459862-file.jpeg",
+                "sub_data_file": "glazen_schuifwand.json"
+            },
+            {
+                "label": "Schuifpuien",
+                "img_src": "",
+                "sub_data_file": "schuifpuien.json"
+            }
+        ]
+    }
+]

@@ -1,0 +1,94 @@
+.step {
+  margin-bottom: 20px;
+}
+.step h3 {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.step-option {
+  display: inline-block;
+  margin: 6px 10px;
+  cursor: pointer;
+}
+.step select {
+  padding: 0px;
+}
+.step .rd-hidden {
+  display: none;
+}
+.step img.option-image {
+  height: 75px;
+  width: 75px;
+  border-radius: 5px;
+}
+.step .step-option.active,
+.step .step-option:hover {
+  padding: 5px;
+  border-radius: 5px;
+  border: 2px solid blue;
+}
+#step-summary {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.radio-wrapper {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+/* Hide the default radio button */
+.radio_img-option input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* Style the image container (the label) */
+.radio_img-option label {
+  display: inline-block;
+  cursor: pointer;
+  border: 3px solid #ccc;
+  padding: 5px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+/* Style the image itself */
+.radio_img-option label img {
+  display: block;
+  width: 50px;
+  height: auto;
+}
+
+/* Add a highlight effect to the selected image */
+.radio_img-option input[type="radio"]:checked + label {
+  border-color: #0073aa;
+}
+
+/* Add a hover effect for a better user experience */
+.radio_img-option input[type="radio"] + label:hover {
+  border-color: #0073aa;
+}
+
+.option-group.active {
+  border: 1px solid black;
+}
+
+.option-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.option-item {
+  border: 2px solid #ddd;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.option-item.active {
+  border: 3px solid #0073aa;
+}

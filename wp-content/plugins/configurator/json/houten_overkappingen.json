@@ -1,0 +1,191 @@
+[
+    {
+        "heading": "Houten overkapping",
+        "required": true,
+        "type": "range",
+        "data": {
+            "Breedte": {
+                "min": 2000,
+                "max": 12000
+            },
+            "Diepte": {
+                "min": 2000,
+                "max": 4000
+            }
+        }
+    },
+    {
+        "heading": "Hout bewerking",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Standaard fijnbezaagd",
+                "img_src": ""
+            },
+            {
+                "label": "Geschaafd",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "EPDM",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Geen",
+                "img_src": ""
+            },
+            {
+                "label": "EPDM incl. benodigde Lijm & Kit",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Daktrim",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Geen",
+                "img_src": ""
+            },
+            {
+                "label": "Met Daktrim",
+                "img_src": "",
+                "sub_data": [
+                    {
+                        "heading": "Daktrim kleur",
+                        "required": true,
+                        "type": "radio",
+                        "data": [
+                            {
+                                "label": "Brut",
+                                "img_src": ""
+                            },
+                            {
+                                "label": "Zwart",
+                                "img_src": ""
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "heading": "Betonpoeren",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Geen",
+                "img_src": ""
+            },
+            {
+                "label": "Incl. betonpoeren",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "HWA",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Geen",
+                "img_src": ""
+            },
+            {
+                "label": "Stadsuitloop",
+                "img_src": ""
+            },
+            {
+                "label": "Dakdoorvoer",
+                "img_src": ""
+            }
+        ]
+    },
+
+    {
+        "heading": "Wanden",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Geen",
+                "img_src": ""
+            },
+            {
+                "label": "Met Achterwand",
+                "img_src": ""
+            },
+            {
+                "label": "Met Achterwand en Zijwand",
+                "img_src": ""
+            },
+            {
+                "label": "Met Achterwand en 2x Zijwand",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Verlichting",
+        "required": false,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Geen ",
+                "img_src": ""
+            },
+            {
+                "label": "Met Led-inbouwspot",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Persoonlijke Gegevens",
+        "required": true,
+        "final": true,
+        "type": "multi-input",
+        "data": [
+          {
+            "label": "Naam",
+            "name": "naam",
+            "type": "text",
+            "required": true
+          },
+          {
+            "label": "Woonplaats",
+            "name": "workplace",
+            "type": "text",
+            "required": true
+          },
+          {
+            "label": "E-mailadres",
+            "name": "email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "label": "Telefoonnummer",
+            "name": "phone",
+            "type": "tel",
+            "required": true
+          },
+          {
+            "label": "Opmerking",
+            "name": "opmerking",
+            "type": "textarea",
+            "required": false
+          }
+        ]
+      }
+
+]

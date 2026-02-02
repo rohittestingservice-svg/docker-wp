@@ -1,0 +1,114 @@
+.gc-step-row {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding: 15px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+}
+.gc-left,
+.gc-right {
+  flex: 1 1 48%;
+  min-width: 280px;
+  background: #fff;
+  border-radius: 8px;
+  padding: 16px;
+}
+.gc-left .conf_input-wrapper {
+  display: flex;
+  gap: 10px;
+  align-items: flex-end;
+}
+
+.gc-step-form h5 {
+  margin-bottom: 10px;
+}
+
+.gc-step-form {
+  margin-bottom: 20px;
+}
+
+.gc-step-form .input-box select,
+.gc-step-form .input-box input {
+  padding: 0px 5px;
+}
+.gc-step-form .input-box select {
+  min-width: 125px;
+}
+.conf_input-wrapper .input-box {
+  position: relative;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  gap: 5px;
+}
+.conf_input-wrapper .error-message {
+  font-size: 11px;
+  color: red;
+  position: absolute;
+  width: 100%;
+  line-height: normal;
+  bottom: -30px;
+}
+.gc-remove {
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 6px 10px;
+  cursor: pointer;
+}
+.gc-remove:hover {
+  background: #b52a37;
+}
+.gc-preview-item {
+  margin-bottom: 25px;
+  border: 1px solid #334155;
+  padding: 25px;
+  border-radius: 25px;
+}
+.gc-preview-item p {
+  margin: 0px;
+}
+.preview-item-wrapper h5.offer-heading {
+  margin: 0;
+  color: #066bd2;
+}
+.preview-item-wrapper .item-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.preview-item-wrapper .row-data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.gc-delivery,
+.gc-ammount {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.gc-checkbox-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gc-radio-container .input-box,
+.gc-checkbox-container .input-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 5px 0px;
+}
+.extra-options {
+  padding: 10px 0px;
+  margin-top: 15px;
+}
+
+.gc-preview-item .gc-ammount {
+  padding: 20px 0px;
+  font-size: 25px;
+}

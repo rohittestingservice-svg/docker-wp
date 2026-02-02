@@ -1,0 +1,180 @@
+[
+    {
+        "heading": "Breedte x diepte",
+        "required": true,
+        "type": "range",
+        "data": {
+            "Breedte": {
+                "min": 162,
+                "max": 608
+            },
+            "Hoogte": {
+                "min": 200,
+                "max": 250
+            }
+        }
+    },
+    {
+        "heading": "Kleur",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Antraciet Ral 7016",
+                "img_src": ""
+            },
+            {
+                "label": "Creme wit Ral 9001",
+                "img_src": ""
+            },
+            {
+                "label": "Zwart Ral 9005",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Glasopvang",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Met U-Profielen",
+                "img_src": ""
+            },
+            {
+                "label": "Zonder u-profielen",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Greep",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Geen",
+                "img_src": ""
+            },
+            {
+                "label": "Handgreep",
+                "img_src": ""
+            },
+            {
+                "label": "Komgreep",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Greep positie",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Zonder greep",
+                "img_src": ""
+            },
+            {
+                "label": "Komgreep Rechts - Open schuifrichting Links",
+                "img_src": ""
+            },
+            {
+                "label": "Komgreep Links - Open schuifrichting Rechts",
+                "img_src": ""
+            },
+            {
+                "label": "Komgreep Links + Rechts - Open schuifrichting Links + Rechts",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Meenemer systeem",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Nee - glasplaten bewegen individueel",
+                "img_src": ""
+            },
+            {
+                "label": "Ja glasplaten worden meegenomen",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Tochtprofiel of Steellook profielen",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Geen",
+                "img_src": ""
+            },
+            {
+                "label": "Tochtprofielen",
+                "img_src": ""
+            },
+            {
+                "label": "Steellook profielen",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Funderingsbalk",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Nee",
+                "img_src": ""
+            },
+            {
+                "label": "Ja",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Persoonlijke Gegevens",
+        "required": true,
+        "final": true,
+        "type": "multi-input",
+        "data": [
+          {
+            "label": "Naam",
+            "name": "naam",
+            "type": "text",
+            "required": true
+          },
+          {
+            "label": "Woonplaats",
+            "name": "workplace",
+            "type": "text",
+            "required": true
+          },
+          {
+            "label": "E-mailadres",
+            "name": "email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "label": "Telefoonnummer",
+            "name": "phone",
+            "type": "tel",
+            "required": true
+          },
+          {
+            "label": "Opmerking",
+            "name": "opmerking",
+            "type": "textarea",
+            "required": false
+          }
+        ]
+    }
+]

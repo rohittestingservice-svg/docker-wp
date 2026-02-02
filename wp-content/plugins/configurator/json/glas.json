@@ -1,0 +1,223 @@
+[
+    {
+        "heading": "Glas",
+        "required": true,
+        "type": "range",
+        "data": {
+            "Breedte": {
+                "min": 206,
+                "max": 706
+            },
+            "Diepte": {
+                "min": 200,
+                "max": 400
+            }
+        }
+    },
+    {
+        "heading": "Linkerzijde",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Open",
+                "img_src": ""
+            },
+            {
+                "label": "Aluminium Rabatdelen",
+                "img_src": ""
+            },
+            {
+                "label": "Sandwichpanelen",
+                "img_src": ""
+            },
+            {
+                "label": "Glazen schuifwanden",
+                "img_src": ""
+            },
+            {
+                "label": "Aluminium Schuifpui",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Linkerzijde Spie",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Geen",
+                "img_src": ""
+            },
+            {
+                "label": "Aluminium Spie",
+                "img_src": ""
+            },
+            {
+                "label": "Sandwich Spie",
+                "img_src": ""
+            },
+            {
+                "label": "Glas Spie",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Rechterzijde",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Open",
+                "img_src": ""
+            },
+            {
+                "label": "Aluminium Rabatdelen",
+                "img_src": ""
+            },
+            {
+                "label": "Sandwichpanelen",
+                "img_src": ""
+            },
+            {
+                "label": "Glazen schuifwanden",
+                "img_src": ""
+            },
+            {
+                "label": "Aluminium Schuifpui",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Rechterzijde Spie",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Geen",
+                "img_src": ""
+            },
+            {
+                "label": "Aluminium Spie",
+                "img_src": ""
+            },
+            {
+                "label": "Sandwich Spie",
+                "img_src": ""
+            },
+            {
+                "label": "Glas Spie",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Voorzijde",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Open",
+                "img_src": ""
+            },
+            {
+                "label": "Glazen schuifwanden",
+                "img_src": ""
+            },
+            {
+                "label": "Aluminium Schuifpui",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Ledverlichting",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Nee",
+                "img_src": ""
+            },
+            {
+                "label": "Ja",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Gootsierlijst",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Vlak",
+                "img_src": ""
+            },
+            {
+                "label": "Rond",
+                "img_src": ""
+            },
+            {
+                "label": "Klassiek",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Montage",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Ja - inclusief montage",
+                "img_src": ""
+            },
+            {
+                "label": "Nee - zelfbouwpakket",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Persoonlijke Gegevens",
+        "required": true,
+        "final": true,
+        "type": "multi-input",
+        "data": [
+          {
+            "label": "Naam",
+            "name": "naam",
+            "type": "text",
+            "required": true
+          },
+          {
+            "label": "Woonplaats",
+            "name": "workplace",
+            "type": "text",
+            "required": true
+          },
+          {
+            "label": "E-mailadres",
+            "name": "email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "label": "Telefoonnummer",
+            "name": "phone",
+            "type": "tel",
+            "required": true
+          },
+          {
+            "label": "Opmerking",
+            "name": "opmerking",
+            "type": "textarea",
+            "required": false
+          }
+        ]
+    }
+]

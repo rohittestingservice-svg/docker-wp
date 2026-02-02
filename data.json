@@ -1,0 +1,46 @@
+[
+  {
+    "type": "radio",
+    "heading": "molestiae earum est",
+    "required": true,
+    "options": [
+      {
+        "label": "consequatur sed ess",
+        "stock": "92",
+        "price": "216"
+      },
+      {
+        "label": "illo autem ipsam ape",
+        "stock": "24",
+        "price": "44"
+      }
+    ]
+  },
+  {
+    "type": "select",
+    "heading": "qui aut ad enim mole",
+    "required": true,
+    "options": [
+      {
+        "label": "consectetur adipisi",
+        "stock": "19",
+        "price": "794"
+      },
+      {
+        "label": "est rem eu sit nat",
+        "stock": "44",
+        "price": "439"
+      },
+      {
+        "label": "quas suscipit conseq",
+        "stock": "32",
+        "price": "903"
+      },
+      {
+        "label": "autem et mollit haru",
+        "stock": "77",
+        "price": "827"
+      }
+    ]
+  }
+]

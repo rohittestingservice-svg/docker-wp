@@ -1,0 +1,13 @@
+.composite-wrapper {
+  margin: 10px;
+}
+
+.composite-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.composite-row select {
+  width: 70%;
+}

@@ -1,0 +1,195 @@
+[
+    {
+        "heading": "Keuze categorie",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Veranda",
+                "img_src": "http://localhost:8080/wp/wp-content/uploads/2025/04/logo-4.png"
+            },
+            {
+                "label": "Glazen schuifwand",
+                "img_src": ""
+            },
+            {
+                "label": "Schuifpuien",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "Veranda": [
+            {
+                "heading": "1111",
+                "required": true,
+                "type": "range",
+                "data": {
+                    "Breedte": {
+                        "min": 206,
+                        "max": 706
+                    },
+                    "Diepte": {
+                        "min": 200,
+                        "max": 400
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "Glazen schuifwand": [
+            {
+                "heading": "2222",
+                "required": true,
+                "type": "range",
+                "data": {
+                    "Breedte": {
+                        "min": 206,
+                        "max": 706
+                    },
+                    "Diepte": {
+                        "min": 200,
+                        "max": 400
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "Schuifpuien": [
+            {
+                "heading": "333",
+                "required": true,
+                "type": "range",
+                "data": {
+                    "Breedte": {
+                        "min": 206,
+                        "max": 706
+                    },
+                    "Diepte": {
+                        "min": 200,
+                        "max": 400
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "heading": "Kleur",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Antraciet Ral 7016",
+                "img_src": ""
+            },
+            {
+                "label": "Creme wit Ral 9001",
+                "img_src": ""
+            },
+            {
+                "label": "Zwart Ral 9005",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "heading": "Dakbedekking",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Polycarbonaat",
+                "img_src": ""
+            },
+            {
+                "label": "Glas",
+                "img_src": ""
+            }
+        ]
+    },
+    {
+        "Polycarbonaat": [
+            {
+                "heading": "Polycarbonaat",
+                "required": true,
+                "type": "range",
+                "data": {
+                    "Breedte": {
+                        "min": 206,
+                        "max": 706
+                    },
+                    "Diepte": {
+                        "min": 200,
+                        "max": 400
+                    }
+                }
+            },
+            {
+                "heading": "Type dakbedekking",
+                "required": true,
+                "type": "radio",
+                "data": [
+                    {
+                        "label": "Opaal",
+                        "img_src": ""
+                    },
+                    {
+                        "label": "Helder",
+                        "img_src": ""
+                    }
+                ]
+            },
+            {
+                "heading": "Linkerzijde",
+                "required": true,
+                "type": "radio",
+                "data": [
+                    {
+                        "label": "Open",
+                        "img_src": ""
+                    },
+                    {
+                        "label": "Aluminium Rabatdelen",
+                        "img_src": ""
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "Glas": [
+            {
+                "heading": "Glas",
+                "required": true,
+                "type": "range",
+                "data": {
+                    "Breedte": {
+                        "min": 206,
+                        "max": 706
+                    },
+                    "Diepte": {
+                        "min": 100,
+                        "max": 400
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "heading": "ocean",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+                "label": "Polycarbonaat",
+                "img_src": ""
+            },
+            {
+                "label": "Glas",
+                "img_src": ""
+            }
+        ]
+    }
+]

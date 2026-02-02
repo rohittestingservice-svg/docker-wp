@@ -1,0 +1,77 @@
+.configurator {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+.conf-left-section {
+  width: 60%;
+  background-color: rgb(255, 255, 255);
+  min-height: 500px;
+  border-radius: 10px
+}
+
+.conf-right-section {
+  width: 40%;
+  border: 0.5px solid black;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.heading-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.options-wrapper {
+  margin-top: 1em;
+}
+
+.radio-group {
+  margin-bottom: 10px;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 8px;
+}
+.radio-group img {
+  float: right;
+  object-fit: contain;
+}
+div#nav-buttons {
+    margin-top: 50px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap:10px;
+}
+
+.label-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.range-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 15px;
+}
+
+.input-wrapper input[type="number"] {
+    width: 75px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+span.highlight-required {
+  font-weight: 600;
+  color: red;
+}
+
+.err_msg {
+  font-weight: 400;
+  color: red;
+}

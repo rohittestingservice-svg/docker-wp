@@ -1,0 +1,118 @@
+/* ===============================
+   Composite Product Layout
+================================ */
+
+.composite-item {
+  border: 1px solid #e5e5e5;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  padding: 12px;
+  background: #fff;
+}
+
+/* ---------- Main Row ---------- */
+
+.composite-item .main {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+/* Count Badge */
+.composite-item .count {
+  width: 30px;
+  height: 30px;
+  background: #000;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* Product Image */
+.composite-item .product_img img {
+  width: 35px;
+  height: auto;
+  border-radius: 4px;
+}
+
+/* Product Details */
+.composite-item .product-details {
+  flex: 1;
+}
+
+.composite-item .product-title {
+  font-size: 16px;
+  margin: 0 0 6px;
+  font-weight: 600;
+}
+
+.composite-item .product-desc {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.4;
+}
+
+/* Toggle Button */
+.composite-item .toggle {
+  margin-left: auto;
+}
+
+.composite-item .toggle-options {
+  background: transparent;
+  color: #000;
+  border: 1px solid #ccc;
+  padding: 6px 10px;
+  font-size: 13px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* ---------- Options Section ---------- */
+.composite-item .option-wrapper {
+  display: none;
+}
+
+.composite-item .options {
+  display: none;
+  padding: 12px;
+  margin-top: 10px;
+  background: #f9f9f9;
+  border-radius: 4px;
+}
+
+/* ---------- Price & Quantity ---------- */
+
+.composite-item .price {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.composite-item .composite-qty {
+  margin-top: 8px;
+  width: 70px;
+  padding: 4px;
+}
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 768px) {
+  .composite-item .main {
+    flex-direction: column;
+  }
+
+  .composite-item .product_img img {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .composite-item .toggle {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+}

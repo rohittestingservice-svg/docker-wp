@@ -1,0 +1,119 @@
+[
+    {
+        "heading": "Breedte x diepte",
+        "required": true,
+        "type": "range",
+        "data": {
+            "Breedte": {
+                "min": 200,
+                "max": 600
+            },
+            "Hoogte": {
+                "min": 200,
+                "max": 250
+            }
+        }
+    },
+    {
+        "heading": "Kleur",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+              "label": "Antraciet Ral 7016",
+              "img_src": ""
+            },
+            {
+              "label": "Zwart Ral 9005",
+              "img_src": ""
+            }
+          ]
+          
+    },
+    {
+        "heading": "Greep positie",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+              "label": "Komgreep Rechts - Open schuifrichting Links",
+              "img_src": ""
+            },
+            {
+              "label": "Komgreep Links - Open schuifrichting Rechts",
+              "img_src": ""
+            }
+          ]
+    },
+    {
+        "heading": "Glas",
+        "required": true,
+        "type": "radio",
+        "data": [
+            {
+              "label": "44.2 gelaagd glas / Helder",
+              "img_src": ""
+            },
+            {
+              "label": "33.1 Isolatie glas / Helder",
+              "img_src": ""
+            },
+            {
+              "label": "Steellook profielen",
+              "img_src": ""
+            }
+          ]
+          
+    },
+    {
+        "heading": "Funderingsbalk",
+        "required": true,
+        "type": "radio",
+        "data": [ {
+            "label": "Nee",
+            "img_src": ""
+          },
+          {
+            "label": "Ja",
+            "img_src": ""
+          }]
+    },
+    {
+        "heading": "Persoonlijke Gegevens",
+        "required": true,
+        "final": true,
+        "type": "multi-input",
+        "data": [
+          {
+            "label": "Naam",
+            "name": "naam",
+            "type": "text",
+            "required": true
+          },
+          {
+            "label": "Woonplaats",
+            "name": "workplace",
+            "type": "text",
+            "required": true
+          },
+          {
+            "label": "E-mailadres",
+            "name": "email",
+            "type": "email",
+            "required": true
+          },
+          {
+            "label": "Telefoonnummer",
+            "name": "phone",
+            "type": "tel",
+            "required": true
+          },
+          {
+            "label": "Opmerking",
+            "name": "opmerking",
+            "type": "textarea",
+            "required": false
+          }
+        ]
+    }
+]

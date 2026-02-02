@@ -1,0 +1,65 @@
+# =========================
+# WordPress Core
+# =========================
+/wp-admin/
+/wp-includes/
+/wp-content/index.php
+/wp-content/languages/
+
+# =========================
+# Uploads & Cache
+# =========================
+/wp-content/uploads/
+/wp-content/cache/
+/wp-content/upgrade/
+/wp-content/ai1wm-backups/
+/wp-content/backups/
+/wp-content/wflogs/
+
+# =========================
+# Logs & Debug
+# =========================
+*.log
+debug.log
+error_log
+
+# =========================
+# Environment / Secrets
+# =========================
+wp-config.php
+.env
+.env.*
+*.key
+*.pem
+
+# =========================
+# OS / Editor Files
+# =========================
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# =========================
+# Node / Build Tools
+# =========================
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+build/
+
+# =========================
+# Composer
+# =========================
+vendor/
+composer.lock
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.bak
+*.old
